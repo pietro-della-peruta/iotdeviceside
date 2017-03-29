@@ -1,0 +1,28 @@
+{
+  "name": "bluemix-iot-device-side",
+  "version": "0.0.1",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "description": "The project shows how to use the IBM IoT Platform service in IBM Bluemix - Device Side",
+  "license": "Apache License, Version 2.0",
+  "dependencies": {
+    "cfenv": "^1.0.0",
+    "dotenv": "^2.0.0",
+    "express": "^4.13.3",
+    "ibmiotf": "^0.2.2"
+  },
+  "keywords": [
+    "node",
+    "bluemix",
+    "iot",
+    "mqtt"
+  ],
+  "author": [
+    {
+      "name": "Crescenzo Migliaccio",
+      "email": "crescenzo.migliaccio@it.ibm.com"
+    }
+  ]
+}

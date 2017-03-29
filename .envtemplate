@@ -1,0 +1,12 @@
+#
+# Note that you need to replace the <xxx> values with the configuration
+# parameters that you registered the device-simulator with. This device
+# registration can either be done in the Watson IoT Platform dashboard or
+# via its http API
+#
+
+#IOT PLATFORM CREDENTIALS (Device)
+iotf_org=xxxxxxxxx
+iotf_type=xxxxxxxxx
+iotf_id=xxxxxxxxxx
+iotf_authtoken=xxxxxxxxxxxx

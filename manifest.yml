@@ -1,0 +1,11 @@
+---
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: iot-deviceside-cre
+  host: iot-deviceside-cre
+  disk_quota: 256M
+  command: node app.js
+  buildpack: sdk-for-nodejs
