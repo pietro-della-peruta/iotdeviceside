@@ -27,7 +27,7 @@
 */
 
 
-var flagShowStatusInfoLogs = false;
+var flagShowStatusInfoLogs = true;
 
 // Use sctrict mode
 'use strict';
