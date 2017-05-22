@@ -131,7 +131,9 @@ iotfClient.on("command", function (commandName,format,payload,topic) {
         console.log(">>>>Command *" + commandName +  "* received<<<<");
         var twitterObject = JSON.parse(payload);
         console.log("Text Twitter: " + twitterObject.tweettext);
-    } else {
+    } else if(commandName === "openDoor") {
+    	console.log(">>>>Command *" + commandName +  "* received<<<<");
+    } else    {
         console.log("Command not supported.. " + commandName);
     }
         console.log("------------------");
